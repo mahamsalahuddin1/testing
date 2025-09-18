@@ -1,0 +1,580 @@
+{
+    "levels": {
+        "level1": {
+            "question": "What would you like to know about Emirates Aviation University?",
+            "options": [
+                {
+                    "text": "About EAU",
+                    "next": "about_eau"
+                },
+                {
+                    "text": "Programmes",
+                    "next": "programmes"
+                },
+                {
+                    "text": "Admission",
+                    "next": "admission"
+                },
+                {
+                    "text": "Faculty",
+                    "next": "faculty"
+                }
+            ]
+        },
+        "about_eau": {
+            "answer": "Emirates Aviation University, or EAU, is part of the prestigious Emirates Group. We\u2019re more than just a university\u2014we\u2019re your gateway to an exciting career in aviation and beyond. With a 5-star QS rating, students from over 100 nationalities, and a multicultural environment, we\u2019re proud to offer a global learning experience like no other.",
+            "question": "What do you specifically want to know about EAU?",
+            "options": [
+                {
+                    "text": "Why choose us?",
+                    "next": "why_choose_us"
+                },
+                {
+                    "text": "Facilities?",
+                    "next": "facilities"
+                },
+                {
+                    "text": "Accreditation",
+                    "next": "accreditation"
+                },
+                {
+                    "text": "Location",
+                    "next": "location"
+                }
+            ]
+        },
+        "why_choose_us": {
+            "answer": "Choosing EAU means opening doors to unparalleled opportunities. Being part of the Emirates Group connects you directly to the aviation industry. Over 350 of our students have secured internships with Emirates Airlines in just two years! We also understand life can get busy, which is why we offer flexible learning options, whether you\u2019re looking for full-time, part-time, or even weekend classes.",
+            "options": [
+                {
+                    "text": "Vision",
+                    "next": "vision"
+                },
+                {
+                    "text": "Mission",
+                    "next": "mission"
+                }
+            ]
+        },
+        "vision": {
+            "answer": "Our vision is to be the world\u2019s leading institute of higher education in aviation and related disciplines."
+        },
+        "mission": {
+            "answer": "Our mission is to provide exceptional education in aviation and related disciplines that fosters critical thinking, creativity, and lifelong learning. while encouraging faculty research and promoting community outreach to benefit the industry, society, and the public good"
+        },
+        "facilities": {
+            "answer": "Our campus is thoughtfully equipped to support your academic journey. You'll find specialized labs, including Aerodynamics, Electrical/ Electronic, Material and Structure Physics Labs, as well as workshops for Engines, Avionics, and Mechanical systems. These spaces are tailored to give you hands-on experience in your field. For relaxation and extracurricular activities, we have vibrant sports clubs and collaborative spaces. Plus, our student services team is always ready to provide academic and career support whenever you need it."
+        },
+        "accreditation": {
+            "answer": "EAU is nationally and internationally recognized, accredited by leading bodies such as the Ministry of Education (UAE), KHDA, and ICAO. Our affiliations with EASA, RAeS, and the Quality Assurance Agency (UK) ensure your education meets global standards."
+        },
+        "location": {
+            "answer": "We\u2019re situated in the academic city of Dubai, UAE\u2014a hub for higher education and innovation. Dubai itself is a dynamic city known as a global aviation hub, making it the perfect place to immerse yourself in the industry and connect with aviation professionals worldwide."
+        },
+        "programmes": {
+            "question": "What programs does Emirates Aviation University offer?",
+            "options": [
+                {
+                    "text": "Undergraduate",
+                    "next": "undergraduate_programmes"
+                },
+                {
+                    "text": "Postgraduate",
+                    "next": "postgraduate_programmes"
+                },
+                {
+                    "text": "Doctoral",
+                    "next": "doctoral_programmes"
+                }
+            ]
+        },
+        "undergraduate_programmes": {
+            "question": "Which department would you like to study in?",
+            "options": [
+                {
+                    "text": "Faculty of Engineering",
+                    "next": "engineering_programmes"
+                },
+                {
+                    "text": "Faculty of Business Management",
+                    "next": "business_programmes"
+                },
+                {
+                    "text": "Faculty of Mathematics and Data Science",
+                    "next": "math_data_programmes"
+                }
+            ]
+        },
+        "engineering_programmes": {
+            "question": "The Faculty of Engineering offers the following undergraduate programmes:",
+            "options": [
+                {
+                    "text": "BSc in Aeronautical Engineering",
+                    "next": "bsc_aeronautical"
+                },
+                {
+                    "text": "Applied Bachelor in Aerospace Engineering",
+                    "next": "bachelor_aerospace"
+                },
+                {
+                    "text": "Applied Bachelor in Avionics Engineering",
+                    "next": "bachelor_avionics"
+                },
+                {
+                    "text": "Applied Bachelor in Mechanical Engineering",
+                    "next": "bachelor_mechanical"
+                },
+                {
+                    "text": "Applied Bachelor in Aircraft Maintenance Engineering",
+                    "next": "bachelor_aircraft_maintenance"
+                }
+            ]
+        },
+        "bsc_aeronautical": {
+            "answer": "Are you ready to soar in the world of aeronautical engineering? Our Bachelor of Science in Aeronautical Engineering equips you with the knowledge and hands-on experience to design and develop aircraft—from cutting-edge fighter jets to commercial airliners. With a curriculum grounded in aerodynamics, propulsion, structures, and flight control, you’ll build both theoretical understanding and practical skills to kickstart your career in aerospace.By joining this programme, you’re not just learning in the classroom; you'll gain invaluable industry experience through a six-month internship with leading partners like Emirates Group and EK Engineering. The programme is accredited by the UAE Ministry of Education and the Royal Aeronautical Society, setting you up for success in a variety of aerospace fields or even further studies. Ready to take off?"
+        },
+        "bachelor_aerospace": {
+            "answer": "Ready to explore the world of aerospace? The Applied Bachelor in Aerospace Engineering is your gateway to a dynamic career in aviation and aerospace industries. This hands-on, four-year programme gives you practical training in aerodynamics, propulsion, flight control, and more, with a strong focus on applying theory to real-world scenarios. You’ll work with cutting-edge equipment and gain invaluable industry experience through a six-month internship with top partners like Emirates Group. By the end of your studies, you'll have the skills needed for careers in aircraft design, maintenance, quality control, and management. With accreditation from the UAE Ministry of Education and the Royal Aeronautical Society, this programme opens doors to a wide range of aerospace career paths, both in the UAE and internationally. Ready to take off?"
+        },
+        "bachelor_avionics": {
+            "answer": "Ready to explore the world of avionics? The Applied Bachelor in Avionics Engineering is a four-year programme designed to give you practical skills in aircraft electronics systems, such as autopilot, navigation, and communication. You’ll dive deep into designing, maintaining, and testing avionics systems, gaining hands-on experience from day one. The curriculum blends theory with practical applications, preparing you for a career in the aviation industry or further studies. With a focus on skill development and real-world experience, this programme is accredited by the UAE Ministry of Education and the Royal Aeronautical Society. Graduates are well-equipped to pursue careers in avionics design, maintenance, or management, with opportunities at leading companies like Emirates, Rolls-Royce, and GE Aviation. Ready to take your skills to new heights?"
+        },
+        "bachelor_mechanical": {
+            "answer": "The Applied Bachelor in Mechanical Engineering is designed to equip you with the skills and knowledge needed to excel in mechanical, maintenance, and manufacturing engineering fields. Through hands-on learning and a focus on practical skills like CAD, engineering design, and project management, you’ll be prepared for a range of career opportunities across industries such as automotive, construction, and power generation. This four-year programme is accredited by the UAE Ministry of Education and the Royal Aeronautical Society. You’ll also have the chance to earn additional qualifications like an Advanced Diploma in Mechanical Engineering. With practical experience through internships and access to state-of-the-art facilities, this programme helps you build a strong foundation for a successful engineering career."
+        },
+
+        "bachelor_aircraft_maintenance": {
+            "answer": "The Applied Bachelor in Aircraft Maintenance Engineering is designed for students who want to gain both academic qualifications and practical experience in the fast-growing aviation industry. In just 4 ½ years, students can earn a bachelor’s degree along with a GCAA and EASA license, with hands-on training provided by Emirates Airline. This unique programme ensures that graduates are equipped to meet the high demand for Licensed Aircraft Maintenance Engineers, both locally and internationally. This programme is accredited by the UAE Ministry of Education and European Aviation Safety Agency (EASA), offering students a pathway to become licensed engineers. Along with theoretical knowledge, students gain practical experience through internships and industry connections, positioning them for a successful career in aviation maintenance. Upon completion, they can work with EASA or GCAA-approved organizations and continue their education with a master’s degree without needing additional professional work experience."
+        },
+"business_programmes": {
+            "question": "The Faculty of of Business Management offers the following undergraduate programmes:",
+            "options": [
+                {
+                    "text": "BBA in Aviation Management",
+                    "next": "bba_am"
+                },
+                {
+                    "text": "BBA in Global Logistics & Supply Chain Management",
+                    "next": "bba_scm"
+                }
+            ]
+        },
+        "bba_am": {
+            "answer": "The Bachelor of Business Administration with a concentration in Aviation Management is a unique programme that combines business fundamentals with a deep dive into the aviation industry. Over four years, students will learn key business concepts alongside specialized courses in airline and airport management, preparing them for the dynamic aviation sector. The programme also offers exit qualifications like the Higher Diploma and Diploma in Aviation Management for those looking to enter the industry earlier. EAU’s approach blends lectures with group activities, industry seminars, and practical internships, ensuring students are ready for the workforce. Graduates gain the knowledge and skills to excel in aviation management roles, with the option to pursue further studies or enter various aviation-related fields. The programme is accredited by the UAE Ministry of Education and the Chartered Institute of Logistics and Transport, UK, adding international recognition to your qualification."
+        },
+        "bba_scm": {
+            "answer": "The Bachelor of Business Administration with a concentration in Global Logistics and Supply Chain Management is a four-year programme that equips students with the knowledge and skills to excel in the rapidly growing field of logistics. The curriculum combines core business courses with specialized subjects in logistics and supply chain management, preparing graduates for key roles in the global business landscape. Students also have the option to exit early with a Higher Diploma or Diploma in Global Logistics and Supply Chain Management. EAU’s hands-on approach blends lectures, industry seminars, and internships to ensure students are ready for the workforce. With accreditation from the UAE Ministry of Education and the Chartered Institute of Logistics and Transport (CILT), UK, graduates are well-positioned for a successful career in logistics or further studies. The programme offers an internationally recognized qualification, with the option to obtain a Coventry University certificate alongside the Emirates Aviation University award."
+        },
+"math_data_programmes": {
+            "question": "The Faculty of Mathematics and Data  offers the following undergraduate programmes:",
+            "options": [
+                {
+                    "text": "BCS in Artificial Intelligence",
+                    "next": "bcs_ai"
+                },
+                {
+                    "text": "BCS in Data Science",
+                    "next": "bcs_ds"
+                }
+            ]
+        },
+        "bcs_ai": {
+            "answer": "Are you interested in how Artificial Intelligence is changing the world? The BSc in Computer Science with a concentration in AI is the perfect programme to dive into this exciting field! You’ll spend the first two years building a strong foundation in computer science, like learning about algorithms and software development. Then, in the final two years, you'll explore AI technologies like machine learning, neural networks, and deep learning. You'll gain practical skills in programming and learn to create AI-powered solutions. Ready to turn your skills into a career? This programme isn’t just about theory—it's hands-on! You’ll work on real-world projects, using industry tools like version control and automated testing. Graduates are ready for a variety of careers, from software development to AI-specialized roles. Plus, you’ll earn two certificates: one from Emirates Aviation University and another from Coventry University. Sounds exciting, right? Let's take the next step in shaping your AI future!"
+        },
+        "bcs_ds": {
+            "answer": "Are you excited about the power of data? The BSc in Computer Science with a concentration in Data Science gives you the skills to turn raw data into valuable insights that impact industries around the world. You’ll start with a strong foundation in computer science and then dive into specialized courses in data analysis, mathematics, and statistics. The focus on computational thinking will teach you how to solve real-world problems and develop systems that analyze data for business and industry. Curious about career opportunities? As a data scientist, you'll be in high demand across many sectors, from business to healthcare, finance, and beyond. This programme equips you with essential skills in programming, data analysis, and problem-solving. Plus, you’ll graduate with two prestigious certificates: one from Emirates Aviation University and another from Coventry University. Ready to explore the world of data science and its endless possibilities?"
+        },
+
+    "postgraduate_programmes": {
+        "question": "EAU offers the following master's degrees. Please choose the one you are looking for.",
+        "options": [
+            {
+                "text": "MBA",
+                "next": "mba_programmes"
+            },
+            {
+                "text": "MSc",
+                "next": "msc_programmes"
+            },
+            {
+                "text": "MA",
+                "next": "ma_programmes"
+            }
+        ]
+    },
+    "mba_programmes": {
+        "question": "The MBA programs being offered right now are as follows:",
+        "options": [
+            {
+                "text": "MBA in Aviation Management",
+                "next": "mba_aviation_management"
+            },
+            {
+                "text": "MBA in Logistics & Supply Chain Management",
+                "next": "mba_logistics_supply_chain"
+            },
+            {
+                "text": "MBA in General Management",
+                "next": "mba_general_management"
+            }
+        ]
+    },
+    "mba_aviation_management": {
+        "answer": "Looking to take your career to new heights? The Master of Business Administration (MBA) with a concentration in Aviation Management offers an exciting opportunity to delve into one of the fastest-growing industries. With its dynamic curriculum, this program addresses the rapid expansion of air travel, increasing global connectivity, and the high demand for skilled professionals to manage aviation infrastructure. Whether you're already working in aviation or come from industries like finance, healthcare, or hospitality, this program equips you with advanced business and leadership skills tailored to the aviation sector. Accredited by leading organizations such as the Ministry of Education (UAE) and the Chartered Institute of Logistics and Transport (UK), graduates can earn global recognition and even a dual certification with Coventry University. Flexible in duration (1-2 years) and delivered in convenient five-day block modules, this MBA supports your career goals without disrupting your professional commitments. Whether you're seeking promotions, career shifts, or an edge in managing complex business environments, this program is your ticket to success in the aviation industry and beyond!"
+    },
+    "mba_logistics_supply_chain": {
+        "answer": "Step into the dynamic world of global commerce with the Master of Business Administration (MBA) in Logistics and Supply Chain Management. This program offers a deep dive into one of the most critical aspects of modern business, exploring how globalization has transformed supply chains into intricate networks. Designed to address real-world challenges like cost optimization and service improvement, this MBA is ideal for professionals in logistics, manufacturing, retail, and beyond, as well as those looking to transition into this vital field. Accredited by prestigious bodies such as the Ministry of Education (UAE) and the Chartered Institute of Logistics and Transport (UK), this globally recognized degree prepares you to master transportation systems, sourcing strategies, and supply chain efficiency. With flexible scheduling (1-2 years) and five-day block delivery to accommodate working professionals, the program ensures you can advance your career seamlessly. Whether you're aiming for a promotion, exploring new opportunities, or enhancing your strategic management skills, this MBA equips you to thrive in a complex and interconnected business environment."
+    },
+    "mba_general_management": {
+        "answer": "The Master of Business Administration (MBA) in General Management is your gateway to mastering the art of business leadership. Designed for professionals from diverse industries such as finance, healthcare, retail, and more, this program equips you with a holistic understanding of organizational functions and the skills to navigate multicultural and dynamic business environments. With an emphasis on strategic decision-making and creative problem-solving, this MBA prepares you to tackle complex challenges and drive impactful change within your organization and beyond. Accredited by the Ministry of Education (UAE) and offering a dual certification option with Coventry University, this degree is globally recognized and respected. Flexible in duration (1-2 years) and delivered in convenient five-day block modules, it accommodates your busy schedule while ensuring you gain critical insights into effective management practices. Whether you're aiming to climb the corporate ladder, pivot careers, or refine your leadership skills, this MBA empowers you to lead with confidence and excel in today\u2019s fast-evolving business world."
+    },
+    "msc_programmes": {
+        "question": "The MSc programs being offered right now are as follows:",
+        "options": [
+            {
+                "text": "MSc in Engineering Business Management",
+                "next": "msc_engineering_business_management"
+            },
+            {
+                "text": "MSc in Aviation Safety",
+                "next": "msc_aviation_safety"
+            },
+            {
+                "text": "MSc in Aviation Security",
+                "next": "msc_aviation_security"
+            },
+            {
+                "text": "MSc in Aerospace Engineering",
+                "next": "msc_aerospace_engineering"
+            },
+            {
+                "text": "MSc in Mechanical Engineering",
+                "next": "msc_mechanical_engineering"
+            }
+        ]
+    },
+    "msc_engineering_business_management": {
+        "answer": "The Master of Science in Engineering Business Management is tailor-made for aspiring leaders in technology-driven industries. This program bridges the gap between technical expertise and business acumen, empowering students to excel in managing engineering-focused organizations. By integrating strategic and operational management principles, it equips you with the intellectual and personal skills needed to navigate the challenges of today\u2019s competitive business landscape. Accredited by the Ministry of Education (UAE) and offering a dual certification option with Coventry University, this globally recognized degree enhances your career prospects in engineering and business management. With a flexible duration (1-2 years) and five-day block delivery designed to suit working professionals, this program ensures you can advance your career seamlessly. "
+    },
+    "msc_aviation_safety": {
+        "answer": "The Masters in Aviation Safety and Aviation Security (MASAS) program is a unique opportunity for those seeking to deepen their expertise in these critical areas of aviation. With a focus on both safety\u2014preventing accidents\u2014and security\u2014protecting against hostile threats, the program blends shared foundational modules in risk management, human factors, and operations with specialized coursework in regulations, compliance, and advanced technologies. Students can further tailor their studies through an in-depth project aligned with their chosen focus area. Accredited by the UAE Ministry of Education and recognized by the Royal Aeronautical Society (UK), this globally respected program equips graduates with the knowledge and skills to lead safety and security initiatives in aviation. Whether advancing in your current role or exploring new opportunities, this degree opens doors to significant responsibilities in shaping aviation safety and security policies, with pathways to further academic pursuits like a PhD."
+    },
+    "msc_aviation_security": {
+        "answer": "The Masters in Aviation Safety and Aviation Security (MASAS) program is a unique opportunity for those seeking to deepen their expertise in these critical areas of aviation. With a focus on both safety\u2014preventing accidents\u2014and security\u2014protecting against hostile threats, the program blends shared foundational modules in risk management, human factors, and operations with specialized coursework in regulations, compliance, and advanced technologies. Students can further tailor their studies through an in-depth project aligned with their chosen focus area. Accredited by the UAE Ministry of Education and recognized by the Royal Aeronautical Society (UK), this globally respected program equips graduates with the knowledge and skills to lead safety and security initiatives in aviation. Whether advancing in your current role or exploring new opportunities, this degree opens doors to significant responsibilities in shaping aviation safety and security policies, with pathways to further academic pursuits like a PhD."
+    },
+    "msc_aerospace_engineering": {
+        "answer": "The part-time Master of Science in Aerospace Engineering, offered by Emirates Aviation University in collaboration with Coventry University, is designed to enhance your expertise in specialized engineering fields, particularly those related to aeronautical engineering. The program covers critical topics like Sustainable Aviation, Advanced Materials, Flight Dynamics, Computational Fluid Dynamics, and Unmanned Aerial Vehicles. It's delivered in five-day blocks every two months, providing flexibility for working professionals. Students can also earn a Postgraduate Diploma by completing 8 modules. With accreditation from the UAE Ministry of Education and the Royal Aeronautical Society (RAeS), this program equips you with the skills needed to pursue careers in design, development, operations, and management roles in aerospace engineering and related industries."
+    },
+    "msc_mechanical_engineering": {
+        "answer": "The part-time Master of Science in Mechanical Engineering, offered by Emirates Aviation University in collaboration with Coventry University, is designed to deepen your knowledge and skills in modern mechanical engineering. The program covers topics such as Solar Thermal Energy, Advanced Materials, Computational Fluid Dynamics, and Stress Dynamics, with a focus on applications relevant to the Gulf region. Taught in five-day blocks every two months, it offers flexibility for working professionals. A Postgraduate Diploma can be earned by completing 8 modules. This accredited program, recognized by the Royal Aeronautical Society (RAeS), prepares graduates for careers in energy, aerospace, and other industrial sectors, providing opportunities for Chartered Engineer status and global recognition."
+    },
+    "ma_programmes": {
+        "question": "The MA program that is being offered right now is:",
+        "options": [
+            {
+                "text": "MA in International Human Resource Management",
+                "next": "ma_international_hrm"
+            }
+        ]
+    },
+    "ma_international_hrm": {
+        "answer": "The Master of Arts in International Human Resource Management equips students with the expertise to manage and develop people in an increasingly complex global environment. With a focus on the integration of diverse cultures, skills development, and strategic HR management, the program prepares graduates to handle the challenges of mergers, acquisitions, and market expansion. Students will gain knowledge aligned with the CIPD\u2019s professional standards, enhancing their ability to contribute to organizational goals. This part-time program is delivered in block sessions, with a Postgraduate Diploma available upon completing 8 modules. It opens doors to career advancement or a shift into HR management roles across industries."
+    },
+    "doctoral_programmes": {
+        "question": "EAU offers two doctoral programs. Please click the one you are interested in.",
+        "options": [
+            {
+                "text": "Doctor of Philosophy in Aviation Management",
+                "next": "phd_aviation_management"
+            },
+            {
+                "text": "Doctor of Philosophy in Data Science",
+                "next": "phd_data_science"
+            }
+        ]
+    },
+    "phd_aviation_management": {
+        "answer": "Looking to advance your career in aviation management? The PhD in Aviation Management at Emirates Aviation University could be the perfect opportunity for you! This program is designed to equip you with advanced knowledge and research skills that will help you lead and innovate in the aviation industry. You'll be guided by experienced researchers, access a wealth of resources, and collaborate with faculty members from top academic institutions and industries around the world. Plus, you'll have the chance to contribute to cutting-edge research and publish your work. The program is fully accredited by the Ministry of Education \u2013 Higher Education Affairs, UAE, ensuring a top-tier education. Ready to take your aviation career to the next level? This PhD could open doors to exciting opportunities in academia, research, regulation, and management."
+    },
+    "phd_data_science": {
+        "answer": "Looking to push the boundaries of data science? The PhD in Data Science at Emirates Aviation University equips you with the skills to lead in a data-driven world. You\u2019ll dive deep into predictive modeling, machine learning, AI, and data decision-making. Supported by a team of expert researchers, you'll explore real-world applications and make a tangible impact in fields like finance, healthcare, and technology. This program offers not just advanced knowledge, but hands-on research training and access to a global network of professionals. With a solid foundation in data science principles, you\u2019ll be well-equipped to lead innovation across industries."
+    },
+
+
+        "admission": {
+            "question": "What would you like to know about Admissions?",
+            "options": [
+                {
+                    "text": "How to Apply",
+                    "next": "how_to_apply"
+                },
+                {
+                    "text": "Admission Requirements",
+                    "next": "admission_requirements"
+                },
+                {
+                    "text": "Fee",
+                    "next": "fees"
+                },
+                {
+                    "text": "Scholarship & Financial Aid",
+                    "next": "scholarship_financial_aid"
+                },
+                {
+                    "text": "Visa",
+                    "next": "visa"
+                }
+            ]
+        },
+        "how_to_apply": {
+            "question": "Are you applying for an Undergraduate or Postgraduate Programme?",
+            "options": [
+                {
+                    "text": "Undergraduate",
+                    "next": "apply_undergraduate"
+                },
+                {
+                    "text": "Postgraduate",
+                    "next": "apply_postgraduate"
+                }
+            ]
+        },
+        "apply_undergraduate": {
+            "question": "Great! The following are steps you need to follow in order to study at EAU. Which step would you like to explore?",
+            "options": [
+                {
+                    "text": "Step 1: Choose a Programme",
+                    "next": "choose_programme"
+                },
+                {
+                    "text": "Step 2: Entry Requirements",
+                    "next": "entry_requirements"
+                },
+                {
+                    "text": "Step 3: Gather Documentation",
+                    "next": "gather_docs"
+                },
+                {
+                    "text": "Step 4: Apply Online",
+                    "next": "apply_online"
+                },
+                {
+                    "text": "Step 5: Offer Letter of Acceptance",
+                    "next": "offer_letter"
+                },
+                {
+                    "text": "Step 6: Submit Verification Documents",
+                    "next": "submit_docs"
+                },
+                {
+                    "text": "Step 7: Pay Reservation Fees",
+                    "next": "pay_fees"
+                },
+                {
+                    "text": "Step 8: Enrolment",
+                    "next": "enrolment"
+                },
+                {
+                    "text": "Step 9: Visa",
+                    "next": "visa_process"
+                }
+            ]
+        },
+        "choose_programme": {
+            "answer": "Choosing the right programme is an exciting step! EAU offers Foundation and Diploma programmes, as well as Undergraduate Engineering and Business programmes tailored for aspiring professionals in aviation. Flexible learning options include on-campus, fully online, or blended experiences."
+        },
+        "entry_requirements": {
+            "answer": "Entry requirements vary depending on the program you're interested in. To find specific requirements for each program, please visit the main admission menu. In general, you'll need to demonstrate a minimum level of English proficiency (criteria depend on the course) and provide proof of your previous academic achievements. For advanced or professional-level courses, additional qualifications or licenses may be required."
+        },
+        "gather_docs": {
+            "answer": "Once you’ve confirmed that you meet the program requirements, gather the necessary documents to complete your application. For undergraduate programs, you’ll need an official copy of your high school certificate and transcripts, attested by the relevant authorities. For guidance on UAE or international attestation, follow the respective links provided. Proof of English proficiency is required, which can be demonstrated through tests like TOEFL, IELTS, EMSAT, or EAU’s English Language Entry Test. Additionally, include a copy of your passport (with visa page, if applicable), UAE ID (if applicable), and personal photographs. The Admissions Office may request these or additional documents at any stage of the admission process, depending on your case"
+        },
+        "apply_online": {
+            "answer": "Great! You've selected your program and prepared all the required documents. Now, it’s time to apply online. 🎉 Enter all necessary details accurately in the application form. Remember, any omissions or falsifications can result in rejection or dismissal—so double-check your info! 📂 During the process, Admissions staff might request additional documents to assess your application. ✈️ Need a UAE visa sponsored by the University? Don’t forget to mention it in your application form"
+        },
+        "offer_letter": {
+            "answer": "Congratulations! 🎉 If your qualifications meet the program's entry requirements, the Admissions Office will issue a conditional letter of acceptance. 📅 For Full-Time programs, this letter is valid for the applied semester. 📅 For Modular, Part-Time, and Postgraduate programs, it’s valid for six months unless otherwise specified."
+        },
+        "submit_docs": {
+            "answer": "📝 Once you receive your offer letter, the Admissions Office will inform you about the required documents. Send scanned copies as instructed by your admissions officer. Quick and easy!"
+        },
+        "pay_fees": {
+            "answer": "📌Some high-demand programs may require a reservation fee to secure your seat. 🔑 This fee is non-refundable but adjustable against full tuition fees.⚠️ Note: Paying this fee reserves your seat but doesn’t mean you’re fully enrolled. Ensure full tuition payment by the deadline to secure your spot."
+        },
+        "enrolment": {
+            "answer": "✅ You’re officially enrolled when full tuition fees are paid. If you need a UAE visa sponsored by the University, additional visa  processing fees apply and must be paid along with tuition fees."
+        },
+        "visa_process": {
+            "answer": "✈️ Indicated you need a UAE visa? Visa processing starts after you’ve fully registered and paid all fees. Additional documents might be required at this stage. ⏳ Processing typically takes a minimum of 3 weeks. To avoid delays, make sure fees are settled at least a month before classes begin."
+        }, 
+"apply_postgraduate": {
+            "question": "Great! The following are steps you need to follow in order to study at EAU. Which step would you like to explore?",
+            "options": [
+                {
+                    "text": "Step 1: Choose a Programme",
+                    "next": "choose_programme1"
+                },
+                {
+                    "text": "Step 2: Entry Requirements",
+                    "next": "entry_requirements1"
+                },
+                {
+                    "text": "Step 3: Gather Documentation",
+                    "next": "gather_docs1"
+                },
+                {
+                    "text": "Step 4: Apply Online",
+                    "next": "apply_online1"
+                },
+                {
+                    "text": "Step 5: Offer Letter of Acceptance",
+                    "next": "offer_letter1"
+                },
+                {
+                    "text": "Step 6: Submit Verification Documents",
+                    "next": "submit_docs1"
+                },
+                {
+                    "text": "Step 7: Pay Reservation Fees",
+                    "next": "pay_fees1"
+                },
+                {
+                    "text": "Step 8: Enrolment",
+                    "next": "enrolment1"
+                },
+                {
+                    "text": "Step 9: Visa",
+                    "next": "visa_process1"
+                }
+            ]
+        },
+        "choose_programme1": {
+            "answer": "Choosing the right program is an exciting step! If you're just starting your academic journey, EAU offers Choosing the right programme is essential to advancing your career. At EAU, our Postgraduate programmes are designed for specialized study and are perfect for those ready to take their expertise to the next level. With internationally accredited curricula and options for on-campus, fully online, or blended learning, you can tailor your education to fit your professional goals. Let’s guide you to the programme that aligns with your ambitions!. Find out about all the program’s being offered from the main menu."
+        },
+        "entry_requirements1": {
+            "answer": "Entry requirements vary depending on the program you're interested in. To find specific requirements for each program, please visit the main admission menu. In general, you'll need to demonstrate a minimum level of English proficiency (criteria depend on the course) and provide proof of your previous academic achievements (your bachlor's degree). For advanced or professional-level courses, additional qualifications or licenses may be required"
+        },
+        "gather_docs1": {
+            "answer": "Once you’ve confirmed that you meet the program requirements, gather the necessary documents to complete your application. For postgraduate programs, ensure you have an official copy of your Bachelor’s degree, attested by the appropriate authorities. For details on UAE or international attestation, follow the provided links. Proof of English proficiency is mandatory, which can be demonstrated through tests like TOEFL, IELTS, EMSAT, or equivalent qualifications. Additionally, submit a copy of your passport (including the visa page, if applicable), UAE ID (if applicable), service/experience letters (if relevant), and personal photographs. The Admissions Office may request these or additional documents at any stage of the admission process, depending on your case"
+        },
+        "apply_online1": {
+            "answer": "Great! You've selected your program and prepared all the required documents. Now, it’s time to apply online. 🎉 Enter all necessary details accurately in the application form. Remember, any omissions or falsifications can result in rejection or dismissal—so double-check your info! 📂 During the process, Admissions staff might request additional documents to assess your application. ✈️ Need a UAE visa sponsored by the University? Don’t forget to mention it in your application form"
+        },
+        "offer_letter1": {
+            "answer": "Congratulations! 🎉 If your qualifications meet the program's entry requirements, the Admissions Office will issue a conditional letter of acceptance. 📅 For Full-Time programs, this letter is valid for the applied semester. 📅 For Modular, Part-Time, and Postgraduate programs, it’s valid for six months unless otherwise specified."
+        },
+        "submit_docs1": {
+            "answer": "📝 Once you receive your offer letter, the Admissions Office will inform you about the required documents. Send scanned copies as instructed by your admissions officer. Quick and easy!"
+        },
+        "pay_fees1": {
+            "answer": "📌Some high-demand programs may require a reservation fee to secure your seat. 🔑 This fee is non-refundable but adjustable against full tuition fees.⚠️ Note: Paying this fee reserves your seat but doesn’t mean you’re fully enrolled. Ensure full tuition payment by the deadline to secure your spot."
+        },
+        "enrolment1": {
+            "answer": "✅ You’re officially enrolled when full tuition fees are paid. If you need a UAE visa sponsored by the University, additional visa  processing fees apply and must be paid along with tuition fees."
+        },
+        "visa_process1": {
+            "answer": "✈️ Indicated you need a UAE visa? Visa processing starts after you’ve fully registered and paid all fees. Additional documents might be required at this stage. ⏳ Processing typically takes a minimum of 3 weeks. To avoid delays, make sure fees are settled at least a month before classes begin."
+        },
+
+        "admission_requirements": {
+            "question": "Which programme\u2019s entry requirement would you like to know?",
+            "options": [
+                {
+                    "text": "Business Programme",
+                    "next": "business_requirements"
+                },
+                {
+                    "text": "Engineering Programme",
+                    "next": "engineering_requirements"
+                },
+                {
+                    "text": "CS Programme",
+                    "next": "cs_requirements"
+                }
+            ]
+        },
+        "business_requirements": {
+            "answer": "The Business programs are designed to equip students with comprehensive business knowledge and practical skills. Entry requirements vary by curriculum. For UAE Curriculum students, an overall score of 70% and 80% in English are required. British System applicants need five GCSE/IGCSE subjects with a minimum grade of (C) and either two AS-level subjects or one A-Level subject with a (C) BTEC Level 3 Diploma holders must present a relevant qualification. International Baccalaureate candidates need the IB Certificate, Diploma, or Career Programme. American High School Diploma applicants should have an overall score of 70%, while Indian and Pakistani Board students need a minimum of 50% in their 12th Standard. For the Iranian Curriculum, a score of 15 or 75% is required, and Russian Curriculum applicants need a final year score of 4.0. A minimum IELTS score of 5.0 or equivalent may be required unless prior education was in English. Contact EAU Admissions at +971 46050100/131/122 or via email at eau.admissions@emirates.com for guidance."
+        },
+        "engineering_requirements": {
+            "answer": "The Engineering programs offers rigorous training in aviation engineering. Admission requirements include a 70-80% score in Math and Physics for UAE Curriculum students, depending on the track (Elite, Advanced, or General). British System applicants need five GCSE/IGCSE subjects with a (C) grade and two AS-level subjects or one A-Level subject covering Math and Physics. Relevant BTEC Level 3 Diplomas are accepted, and IB students must present qualifications covering Math and Physics. American High School Diploma applicants need 70% in Math and Physics, while Indian and Pakistani Board students must achieve a minimum of 55% in their 12th Standard. Iranian Curriculum students require a score of 15 points or 75% overall, and Russian and French Baccalaureate applicants need scores of 4.0 and 11 in the Scientific track, respectively. English language proficiency through IELTS (5.0) or equivalent is mandatory unless previously studied in English. Contact EAU Admissions at +971 46050100/153/127/203 or email eau.admissions@emirates.com for detailed guidance."
+        },
+        "cs_requirements": {
+            "answer": "The BSc in DS/AI program prepares students for the evolving fields of data science and artificial intelligence. UAE Curriculum students need 70-80% in Math or Physics, depending on their track. British System candidates must have five GCSE/IGCSE subjects with a (C) grade, along with two AS-level subjects or one A-Level subject covering Math or Physics. A relevant BTEC Level 3 Diploma or IB qualifications with Math or Physics are also acceptable. American High School Diploma applicants require 70% in Math or Physics, while Indian and Pakistani Board students need at least 55% in their 12th Standard, including Math or Physics. For Iranian Curriculum, a score of 15 or 75% is needed, and Russian and French Baccalaureate applicants must present scores of 4.0 and 11, respectively, in the Scientific track. An IELTS score of 5.0 or equivalent may be required unless prior studies were conducted in English. For more information, contact EAU Admissions at +971 46050100/176/117 or email eau.admissions@emirates.com."
+        },
+        "fees": {
+            "question": "Would you like to know about undergraduate or postgraduate fees?",
+            "options": [
+                {
+                    "text": "Undergraduate Fee",
+                    "next": "undergraduate_fee"
+                },
+                {
+                    "text": "Postgraduate Fee",
+                    "next": "postgraduate_fee"
+                }
+            ]
+        },
+        "undergraduate_fee": {
+            "answer": "Undergraduate program fees vary based on the field of study and program duration. For most Bachelor's degrees, annual fees range from AED 77,396 to AED 87,980 (USD 21,499 to USD 24,439). Specialized programs, such as Applied Bachelor in Aircraft Maintenance Engineering, may have different fee structures for the first and last years. For shorter programs like the Higher Diploma in Business Management, the annual fee is AED 52,500 (USD 14,583)."
+        },
+        "postgraduate_fee": {
+            "answer": "Postgraduate program fees vary depending on the program and its duration. Full-time Master's programs typically range from AED 84,000 to AED 132,300 (USD 23,333 to USD 36,750) for the full duration. PhD programs are charged annually, with full-time options costing AED 76,125 (USD 21,146) per year and part-time options costing AED 50,750 (USD 14,097) per year. Shorter postgraduate certificates generally cost between AED 37,333 and AED 58,800 (USD 10,370 to USD 16,333)."
+        },
+        "scholarship_financial_aid": {
+            "question": "Scholarships, financial aid, and tuition incentives at Emirates Aviation University are thoughtfully designed to ensure education remains accessible and rewarding for students from diverse backgrounds. Choose the one you want to know about!",
+            "options": [
+                {
+                    "text": "Scholarship",
+                    "next": "scholarship"
+                },
+                {
+                    "text": "Financial Aid",
+                    "next": "financial_aid"
+                },
+                {
+                    "text": "Tuition Incentives",
+                    "next": "tuition_incentives"
+                }
+            ]
+        },
+        "scholarship": {
+            "answer": "For high achievers, the Chancellor's Scholarship offers a prestigious opportunity, covering up to 100% of tuition fees for newly admitted undergraduate and postgraduate students. Applicants need to demonstrate exceptional academic performance—95% for undergraduate or a CGPA of 3.8 for postgraduate—along with strong personal qualities. Meanwhile, the Vice-Chancellor’s Scholarship provides a generous 50% tuition fee reduction, catering to students who meet slightly lower yet commendable academic criteria. Current undergraduates with a stellar CGPA of 3.6 can also apply."
+        },
+        "financial_aid": {
+            "answer": "For students with limited financial resources, the Financial Aid Scheme provides a lifeline. Open to both new and returning students, this program requires applicants to demonstrate financial need alongside meeting academic benchmarks. Aid is granted annually, ensuring a continuous review of eligibility."
+        },
+        "tuition_incentives": {
+            "answer": "EAU's tuition incentives make education more accessible through targeted discounts and exclusive packages. Employees of specific corporate organizations, along with their spouses and children, can benefit from the Corporate Discount. UAE Resident Study Packages offer a 15% tuition discount and waived registration fees for students residing on campus, while international students enjoy similar benefits alongside a free Emirates return ticket and waived visa administration fees. Interactive e-learning students also receive discounts of up to 15%, and families with multiple siblings studying at EAU receive a 10% reduction in tuition. Alumni joining new programs benefit from a 20% discount, ensuring a continued connection with the university."
+        },
+        "visa": {
+	"answer": "Managing visa formalities is an essential part of studying at Emirates Aviation University, and we’re here to support you every step of the way. For full-time students, a valid UAE residence visa is mandatory throughout your study period. EAU offers assistance with obtaining a student visa under university sponsorship, provided all registration requirements are fulfilled and tuition fees are paid. This visa, typically valid for one year, can be renewed for returning students, with processing fees borne by the applicant. If circumstances change—such as withdrawal from the program—the visa must be canceled immediately, with students required to leave the UAE or secure alternative sponsorship. For overseas students attending entrance tests, arranging a visit visa remains their responsibility. EAU ensures a fair process by refunding tuition fees (excluding registration and incurred processing fees) in cases of visa rejection. For any queries, our dedicated visa team is available at eau.visa@emirates.com to provide detailed guidance."
+},
+        "faculty": {
+            "question": "What would you like to know about our Faculty?",
+            "options": [
+                {
+                    "text": "Faculty of Business Management",
+                    "next": "faculty_business_management"
+                },
+                {
+                    "text": "Faculty of Engineering",
+                    "next": "faculty_engineering"
+                },
+                {
+                    "text": "Faculty of Mathematics and Data Science",
+                    "next": "faculty_math_data"
+                }
+            ]
+        },
+        "faculty_business_management": {
+            "answer": "Meet Prof. Dr. Zindoga Mukandavire, the Acting Dean of the Faculty of Business Management and Director of Research at EAU. He specializes in Applied Mathematics, Disease Modelling, and Data Science, focusing on solving aviation and public health challenges using mathematical models. His interdisciplinary approach supports collaborations and advancements in both research and education."
+        },
+        "faculty_engineering": {
+            "answer": "Introducing Prof. Dr. Hicham Machmouchi, the Dean of the Faculty of Engineering at EAU. With over 30 years of teaching experience, he is an expert in Aeronautical and Mechanical Engineering, Computational Fluid Dynamics, and Sustainable Aviation. His research has significantly impacted both academia and industry, making this faculty a center for cutting-edge engineering solutions and innovations."
+        },
+        "faculty_math_data": {
+            "answer": "Let me introduce you to Dr. Hannah Al Ali, the Dean of the Faculty of Mathematics and Data Science. With expertise in Machine Learning, Mathematical Modelling, and Data Science, her research addresses complex aviation problems through innovative solutions. Her dedication to advancing education and practical applications makes this faculty a leader in modern data science studies."
+        }
+    }
+}

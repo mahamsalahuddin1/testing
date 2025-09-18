@@ -1,0 +1,382 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Body and Background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #e0eafc; /* Fallback color */
+}
+
+/* Background Image */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind the chatbot container */
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+/* Dark/Light Mode */
+body.dark {
+    background: linear-gradient(135deg, #1e2029, #3b404e);
+   /* color: #fff  check*/;
+    color: #bfb6b6  /*check*/;
+
+
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #000;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark #theme-toggle {
+    color: #fff;
+     /* background: rgba(139, 133, 130, 0.53); */
+  
+}
+
+/* Chat Container */
+.chat-container {
+    width: 90%;
+    max-width: 900px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+body.dark .chat-container {
+/*   background: rgba(82, 85, 90, 0.9);   color: #bfb6b6*/
+background : #bfb6b6;
+   
+
+}
+
+/* Chat Header */
+.chat-header {
+    background: rgba(183, 28, 28, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Chat Box */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow-y: auto;
+    height: calc(90vh - 150px); /* Adjust based on input box height */
+    scroll-behavior: smooth;
+    background-color: #f9f9f9;
+}
+
+body.dark .chat-box {
+    
+    background-color: #b0b0b0 !important; /* f9f9f9;*/
+}
+
+body.dark .user-input {
+    
+    background: black;
+}
+
+
+/* Messages */
+.message {
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* User Messages */
+.user-message {
+    align-self: flex-end;
+     background: #C0C0C0;
+    background-color: #b71c1c /* #333 C0C0C0  #f0f0f0;  Light background  here i am */
+    color: #333; /* Dark text */
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-left: 10px; 
+
+
+}
+
+/* Bot Messages */
+.bot-message {
+    align-self: flex-start;
+
+    background-color: #b71c1c; /* Red background  maham*/
+    color: #fff; /* White text */ 
+
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+body.dark .bot-message {
+    background: #b71c1c;  /*chatbot msg color dark mode*/
+    color: #fff;
+}
+
+body.dark .user-message {
+    background: rgba(107, 109, 114, 0.9);  /*chatbot msg color dark mode*/
+    color: #fff;
+}
+
+
+/* Update the chat input container */
+.chat-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(90px);
+    border-top: 1px solid #ddd;
+
+
+}
+
+
+.input-wrapper {
+    display: flex;
+    width: 95%;                 /* Adjust width to fit the chatbot better */
+    max-width: 850px;           /* Ensure responsiveness */
+    margin: 10px auto;          /* Center the input bar inside the chatbot */
+    background: #ffffff;
+    border: 2px solid #b71c1c;  /* Deep red border */
+    border-radius: 25px;        /* Smooth rounded edges */
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#user-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 20px;         /* Deep padding for better usability */
+    font-size: 1rem;
+    background: none;
+}
+
+  
+#user-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+#send-btn {
+    width: 50px;
+    height: 50px;
+    background: #b71c1c;        /* Deep red button */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 10px;         /* Spacing between button and input field */
+}
+
+#send-btn:hover {
+    background: #8e1515;
+}
+
+body.dark #send-btn {
+    /*background: #333;*/
+color: #fff;
+
+	
+}
+
+body.dark #send-btn:hover {
+    background: #555;
+}
+
+
+body.dark .input-wrapper {
+    background: rgba(50, 50, 50, 0.8);
+    border: 2px solid #8e1515;  /* Dark red for dark mode */
+
+}
+
+/* Button Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/*grid buttons*/
+/* Light Mode Grid Colors */
+.option-btn {
+    padding: 10px;
+    background-color: #d1afab;   /* fbe9e7; Soft peach background */
+    border: 1px solid #ffab91; /* Coral border */
+    border-radius: 100px;
+    color: #5d4037; /* Warm brown text */
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color:   #ffab91; /* Coral hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+/* Dark Mode Grid Colors */
+body.dark .option-btn {
+    padding: 10px;
+    background-color: #2c2c2c; /* Soft charcoal background */
+    border: 1px solid #b71c1c; /* Deep red border */
+    border-radius: 8px;
+    color: #d7ccc8; /* Warm beige text */
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.2s, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.dark .option-btn:hover {
+    background-color: #b71c1c; /* Deep red hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+
+
+/* Navigation Buttons Container */
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Add spacing between buttons */
+    margin-top: 10px; /* Add some margin for separation */
+}
+
+/* Individual Navigation Buttons */
+.nav-buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #ddd;
+}
+
+body.dark .nav-buttons button {
+    background-color: #3b404e;
+    color: #fff;
+}
+
+body.dark .nav-buttons button:hover {
+    background-color: #505560;
+}
+
+/* Message container with icon */
+.message-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Icon styles */
+.message-icon {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px; /* Adjust as needed */
+    background-color: rgba(183, 28, 28); /* For user icon maham background */
+    color: #b71c1c; /* For user icon maham red icon color*/
+
+}
+
+.user-icon {
+    margin-left: 10px;
+    margin-right: 0; /* Align to the right */
+    background-color: #FFFFFF; /* For bot icon */
+    color: #000; /* For bot icon */
+    border: 2px solid #000; /* Black border */
+    border-radius: 50%; /* Ensures the border is circular */
+    padding: 5px; /* Add some spacing inside the circle */
+    box-sizing: border-box; /* Ensures padding doesn't affect the size */
+}
+
+
+.user-message-container {
+    flex-direction: row-reverse; /* Icon and message to the right */
+    justify-content: flex-end;  /* Push everything to the right */
+    margin-left: auto;          /* Prevent overlap with the left side */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
